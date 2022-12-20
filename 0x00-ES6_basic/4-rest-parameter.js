@@ -1,3 +1,3 @@
 export default function returnHowManyArguments(...Kwargs) {
-    return Kwargs.length;
+  return Kwargs.length;
 }
