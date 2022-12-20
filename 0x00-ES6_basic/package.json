@@ -5,7 +5,7 @@
   "type": "module",
   "main": "0-constants.js",
   "scripts": {
-    "dev": "node test.js",
+    "dev": "node 2-main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
