@@ -8,6 +8,8 @@
 |was released at Dec 20, 2022 6:00 PM|
 |An auto review will be launched at the deadline|
 
+![promise](../images/promise.jpeg)
+
 ## Resources
 **Read or watch:**
 
