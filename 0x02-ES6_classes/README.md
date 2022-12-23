@@ -8,6 +8,7 @@
 |Ongoing second chance project - started Dec 22, 2022 6:00 AM, must end by Dec 24, 2022 6:00 AM|
 |An auto review will be launched at the deadline|
 
+![classes](../images/classes.jpeg)
 ## Resources
 
 **Read or watch:**
