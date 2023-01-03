@@ -3,7 +3,7 @@
       "lint": "./node_modules/.bin/eslint",
       "check-lint": "lint [0-9]*.js",
       "dev": "npx babel-node",
-      "test": "jest",
+      "test": "jest --coverage",
       "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
     },
     "devDependencies": {
