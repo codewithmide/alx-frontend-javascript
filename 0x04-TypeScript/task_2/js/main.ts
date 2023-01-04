@@ -40,12 +40,16 @@ class Teacher implements TeacherInterface {
 
 function createEmployee (salary: number | string) {
     if (typeof salary === 'number' && salary < 500) {
-        return Teacher;
+        return new Teacher();
     } else {
-        return Director;
+        return new Director();
     }
 }
 
 console.log(createEmployee(200));
 console.log(createEmployee(1000));
 console.log(createEmployee('$500'));
+
+function isDirector (employee) {
+
+}
