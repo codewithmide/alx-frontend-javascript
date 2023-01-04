@@ -50,6 +50,13 @@ console.log(createEmployee(200));
 console.log(createEmployee(1000));
 console.log(createEmployee('$500'));
 
-function isDirector (employee) {
-
+function isDirector(employee: Director | Teacher): employee is Director {
+    return (employee instanceof Director) ? true : false;
 }
+// Funtion to check type of employee and establish the correct task
+function executeWork(employee: Director | Teacher): string {
+    return isDirector(employee) ? employee.workDirectorTasks() : employee.workTeacherTasks();
+}
+
+console.log(executeWork(createEmployee(200)));
+console.log(executeWork(createEmployee(1000)));
