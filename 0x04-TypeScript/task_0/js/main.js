@@ -25,6 +25,14 @@ studentsList.forEach(function (student) {
     // Each row should contain the first name of the student and the location
     nameCol.textContent = student.firstName;
     locationCol.textContent = student.location;
+    nameCol.style.textAlign = 'center';
+    locationCol.style.textAlign = 'center';
+    nameCol.style.color = '#000';
+    locationCol.style.color = '#000';
+    nameCol.style.border = '1px dotted black';
+    locationCol.style.border = '1px dotted black';
+    nameCol.style.height = '300px';
+    locationCol.style.height = '300px';
     row.appendChild(nameCol); // append the cell to the row
     row.appendChild(locationCol); // append the cell to the row
     tableBody.appendChild(row); // append the row to the tbody
