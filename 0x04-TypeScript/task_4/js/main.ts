@@ -10,8 +10,8 @@
  
  // Create a new C teacher object with experienceTeachingC = 10
  export const cTeacher : Subjects.Teacher = {
-     firstName: "Betty",
-     lastName: "Holberton",
+     firstName: "Olumide",
+     lastName: "Micheal",
      experienceTeachingC: 10
  }
  
